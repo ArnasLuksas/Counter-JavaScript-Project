@@ -94,10 +94,6 @@ body section div button:hover {
   color: #336fca;
 }
 
-body section div button:focus {
-  outline: none;
-}
-
 .green {
   color: green;
   font-size: 96px;
