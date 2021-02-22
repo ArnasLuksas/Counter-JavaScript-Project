@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("/Counter-JavaScript-Project/img/blue-snow.png");
+  background-repeat: repeat;
+}
+
+body section {
+  -webkit-box-shadow: 5px 5px 15px 5px #c5c5c5;
+          box-shadow: 5px 5px 15px 5px #c5c5c5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #cce0ff;
+  margin: 0 20px;
+}
+
+body section h1 {
+  color: white;
+  font-size: 48px;
+  padding: 40px 40px 0px 40px;
+  color: #336fca;
+}
+
+body section .show {
+  font-size: 96px;
+  color: #336fca;
+}
+
+body section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 40px 40px 40px;
+}
+
+body section div button {
+  width: 46%;
+  margin: 5px;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  background: #336fca;
+  color: white;
+  outline: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+  border: 1px solid #336fca;
+}
+
+body section div button:hover {
+  background: #cce0ff;
+  border: 1px solid #336fca;
+  color: #336fca;
+}
+
+.green {
+  color: green;
+  font-size: 96px;
+}
+
+.red {
+  color: red;
+  font-size: 96px;
+}
+
+.blue {
+  color: #336fca;
+  font-size: 96px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/Counter-JavaScript-Project/img/blue-snow.png');
+  background-repeat: repeat;
+  section {
+    // border: 1px solid white;
+    box-shadow: 5px 5px 15px 5px #c5c5c5;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(204, 224, 255);
+    margin: 0 20px;
+    h1 {
+      color: white;
+      font-size: 48px;
+      padding: 40px 40px 0px 40px;
+      color: rgb(51, 111, 202);
+    }
+    .show {
+      font-size: 96px;
+      color: rgb(51, 111, 202);
+    }
+    div {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0 40px 40px 40px;
+
+      button {
+        width: 46%;
+        margin: 5px;
+        padding: 10px 5px;
+        text-transform: uppercase;
+        background: rgb(51, 111, 202);
+        color: white;
+        outline: none;
+        transition: 0.4s;
+        cursor: pointer;
+        border: 1px solid rgb(51, 111, 202);
+
+        // box-shadow: 5px 5px 15px 5px #c5c5c5;
+      }
+      button:hover {
+        background: rgb(204, 224, 255);
+        border: 1px solid rgb(51, 111, 202);
+        color: rgb(51, 111, 202);
+      }
+    }
+  }
+}
+.green {
+  color: green;
+  font-size: 96px;
+}
+.red {
+  color: red;
+  font-size: 96px;
+}
+
+.blue {
+  color: #336fca;
+  font-size: 96px;
+}
