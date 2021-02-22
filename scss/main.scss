@@ -13,10 +13,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('/Counter-JavaScript-Project/img/blue-snow.png');
+  background-image: url('../img/blue-snow.png');
   background-repeat: repeat;
   section {
-    // border: 1px solid white;
     box-shadow: 5px 5px 15px 5px #c5c5c5;
     display: flex;
     text-align: center;
@@ -51,8 +50,6 @@ body {
         transition: 0.4s;
         cursor: pointer;
         border: 1px solid rgb(51, 111, 202);
-
-        // box-shadow: 5px 5px 15px 5px #c5c5c5;
       }
       button:hover {
         background: rgb(204, 224, 255);
